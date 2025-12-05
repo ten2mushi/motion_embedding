@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "motion-embedding-analyzer"
+version = "0.1.0"
+description = "PCA and t-SNE visualization for motion embedding analysis"
+authors = ["User"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.21"
+matplotlib = "^3.5"
+scikit-learn = "^1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
